@@ -1,5 +1,5 @@
 numpy
 pandas
 Flask
-malplotlib
+matplotlib
 plotly
