@@ -1,2 +1,9 @@
 *.pyc
 __pycache__/
+.ipynb_checkpoints
+
+#data
+*.csv
+
+#config
+/data/config.txt
