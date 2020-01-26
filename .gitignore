@@ -6,4 +6,4 @@ __pycache__/
 *.csv
 
 #config
-/data/config.txt
+/data

@@ -2,7 +2,7 @@
   <head>
     <script>
       const ENV = {
-        MAPBOX_TOKEN: '[MAPBOX_ACCESS_TOKEN]',
+        MAPBOX_TOKEN: '{{ env.MAPBOX_TOKEN }}',
       };
     </script>
 
@@ -24,5 +24,6 @@
 
   <body onload="main()">
     <div id="map"></div>
+    <input id="slider" type="range" min="1" max="100" value="50"></input>
   </body>
 </html>
